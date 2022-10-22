@@ -10,4 +10,10 @@ Step 4: [2,6,16,18|,(22),27]
 3)Time Complexity=> Average Case=[16,27,2,6,16,18,22]==o(n^2)  Best Case=[2,6,16,18,22,27]==o(n)  
 Worst Case=[27,22,18,16,6,2]==> 0+1+2+3+.....+n-1=n*(n-1)/2=n^2-n/2==o(n^2)
 
-4) 
+4) The number 18 is middle number in the sequance. That's way, The number 18 is average case in the sequance.
+
+[7,3,5,8,2,9,4,15,6]==> Insertion Sort first four steps
+Step1: [(7),3,5,8,(2),9,4,15,6] ==> [2,3,5,8,7,9,4,15,6]
+Step2: [2|,(3),5,8,7,9,4,15,6] ==> [2,3|,(5),8,7,9,(4),15,6] ==> [2,3,4,8,7,9,5,15,6]
+Step3: [2,3,4|,(8),7,9,(5),15,6] ==> [2,3,4,5,7,9,8,15,6]
+Step4: [2,3,4,5|,(7),9,8,15,(6)] ==> [2,3,4,5,7,9,8,15,6]
