@@ -1,3 +1,5 @@
+[PATIKA.DEV](https://www.patika.dev/tr)
+
 [22,27,16,2,18,6] -> Insertion Sort
 1)Initially, insertion sort compares the first two elements.
 Step 1: [2|,(27),16,22,18,(6)] 
@@ -12,7 +14,8 @@ Worst Case=[27,22,18,16,6,2]==> 0+1+2+3+.....+n-1=n*(n-1)/2=n^2-n/2==o(n^2)
 
 4) The number 18 is middle number in the sequance. That's way, The number 18 is average case in the sequance.
 
-[7,3,5,8,2,9,4,15,6]==> Insertion Sort first four steps
+
+[7,3,5,8,2,9,4,15,6]==> Insertion Sort Four Steps
 Step1: [(7),3,5,8,(2),9,4,15,6] ==> [2,3,5,8,7,9,4,15,6]
 Step2: [2|,(3),5,8,7,9,4,15,6] ==> [2,3|,(5),8,7,9,(4),15,6] ==> [2,3,4,8,7,9,5,15,6]
 Step3: [2,3,4|,(8),7,9,(5),15,6] ==> [2,3,4,5,7,9,8,15,6]
